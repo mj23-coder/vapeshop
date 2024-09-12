@@ -8,15 +8,15 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     height: 100vh;
-    background: linear-gradient(135deg, black 35%, blue);
+    background: linear-gradient(135deg, black 35%, cyan);
 }
 
 /* Shrinkable Sidebar */
 .sidebar {
-    width: 80px; /* Default shrunk width */
-    background-color: black; /* Change background color to black */
+    width: 60px; /* Shrunk width to fit the icon */
+    background-color: black; /* Sidebar color */
     color: white;
-    padding: 15px;
+    padding: 10px 10px; /* Adjust padding */
     position: fixed;
     height: 100%;
     overflow: hidden;
@@ -64,8 +64,8 @@ body {
 }
 
 .sidebar ul li a i {
-    margin-right: 20px; /* Space between icon and text */
-    font-size: 20px;
+    margin-right: 10px; /* No space between icon and text in shrunk mode */
+    font-size: 24px; /* Adjust icon size */
 }
 
 .sidebar ul li a:hover {
@@ -74,7 +74,7 @@ body {
 
 /* Main content */
 .content {
-    margin-left: 80px; /* Offset content with sidebar shrunk */
+    margin-left: 60px; /* Offset content with sidebar shrunk */
     padding: 20px;
     width: 100%;
     color: white;
