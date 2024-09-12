@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VAPESHOP - Home</title>
+    <title>About Us</title>
     <!-- Link to Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Link to the CSS file -->
@@ -23,12 +23,12 @@
     </div>
 
     <!-- Main content -->
-     <div class="content">
+    <div class="content">
         <div class="container">
-            <h1>My Shop</h1>
-            <p>Welcome to the homepage of VapeShop!</p>
+            <h1>Services</h1>
+            <p>Welcome to the services page!</p>
         </div>
-    </div>
+     </div>
    
 
 </body>
