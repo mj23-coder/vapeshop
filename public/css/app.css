@@ -82,12 +82,20 @@ body {
 }
 
 .sidebar:hover ~ .content {
-    margin-left: 150px; /* Move content when sidebar expands */
+    margin-left: 250px; /* Move content to match the expanded sidebar */
 }
 
 .content h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Optional container for h1 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
 }
 

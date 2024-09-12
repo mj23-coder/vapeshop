@@ -24,8 +24,9 @@
 
     <!-- Main content -->
     <div class="content">
-        <h1>My VapeShop</h1>
-        
+        <div class="container">
+            <h1>My VapeShop</h1>
+        </div>
     </div>
 
 </body>
