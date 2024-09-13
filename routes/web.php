@@ -13,3 +13,6 @@ Route::get('/about', function () {
 Route::get('/services', function () {
     return view('services');  // About Us page
 })->name('services');
+Route::get('/contact', function () {
+    return view('contact');  // About Us page
+})->name('contact');

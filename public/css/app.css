@@ -8,16 +8,17 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     height: 100vh;
-    background: linear-gradient(135deg, black 35%, cyan);
+    background: linear-gradient(135deg, black 45%, cyan);
 }
 
 /* Shrinkable Sidebar */
 .sidebar {
-    width: 60px; /* Shrunk width to fit the icon */
-    background-color: black; /* Sidebar color */
-    color: white;
+    width: 70px; /* Shrunk width to fit the icon */
+    background: rgb(77, 239, 239); /* Sidebar color */
+    color: black;
     padding: 10px 10px; /* Adjust padding */
     position: fixed;
+    align-items: center;
     height: 100%;
     overflow: hidden;
     transition: width 0.3s ease;
@@ -50,9 +51,9 @@ body {
 }
 
 .sidebar ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     display: block;
     padding: 10px;
     transition: background-color 0.3s;
@@ -64,12 +65,13 @@ body {
 }
 
 .sidebar ul li a i {
-    margin-right: 10px; /* No space between icon and text in shrunk mode */
+    margin-right: 20px; /* No space between icon and text in shrunk mode */
     font-size: 24px; /* Adjust icon size */
+    color: black;
 }
 
 .sidebar ul li a:hover {
-    background-color: #555; /* Darker shade for hover effect */
+    background: rgb(178, 84, 169); /* Darker shade for hover effect */
 }
 
 /* Main content */
@@ -91,15 +93,8 @@ body {
     text-align: center;
 }
 
-/* Optional container for h1 */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
-
 .content p {
     font-size: 18px;
     line-height: 1.6;
+    text-align: center;
 }

@@ -15,10 +15,10 @@
     <div class="sidebar">
         <h2>Menu</h2>
         <ul>
-            <li><a href="{{ route('home') }}"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="{{ route('home') }}"><i class="fas fa-igloo"></i> Home</a></li>
             <li><a href="{{ route('about') }}"><i class="fas fa-info-circle"></i> About</a></li>
             <li><a href="{{ route('services') }}"><i class="fas fa-concierge-bell"></i> Services</a></li>
-            <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+            <li><a href="{{ route('contact') }}"><i class="fas fa-envelope"></i> Contact</a></li>
         </ul>
     </div>
 
